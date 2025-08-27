@@ -1,6 +1,3 @@
-# File Read & Write Challenge 🖋️
-# This script asks the user for a filename, reads its contents, modifies them, and writes to a new file.
-
 filename = input("Enter the filename to read: ")
 try:
     with open(filename, 'r') as file:
